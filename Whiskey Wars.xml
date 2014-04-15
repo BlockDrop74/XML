@@ -9,9 +9,9 @@
 <contributors>
     <contributor contribution="XML">feidi_22</contributor>
     <contributor contribution="Map help">Eason2001</contributor>
-    <contributor contribution="Map help">Blockdrop74</contributor>
-    <contributor contribution="Map help">skylertyler1337</contributor>
-    <contributor contribution="Map help, feedback">Sheriffsoco</contributor>
+    <contributor contribution="Map help">BlockDrop74</contributor>
+    <contributor contribution="Map help">SkylerTyler1337</contributor>
+    <contributor contribution="Map help, feedback">SheriffSoco</contributor>
 </contributors>
 <cores material="obsidian" leak="4" name="Core">
     <cores team="blue">
@@ -43,9 +43,11 @@
    <team color="blue" max="24" max-overfill="30">Blue Team</team>
    <team color="dark-red" max="24" max-overfill="30">Red Team</team>
 </teams>
+<kits>
     <kit name="spawn">
         <item slot="8">shears</item>
         <potion duration="8" amplifier="1">heal</potion>
+    </kit>
 </kits>
 <itemremove>
     <item>obsidian</item>
